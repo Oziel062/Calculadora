@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background-color: #7f886a;
+}
+h1{
+    color: #f3ecdb;
+}
+
+.calculadora{
+    border-radius: .8rem;
+    background-color: #3e503c;
+}
+
+#botao{
+    border: none;
+    border-radius: 50%;
+    background-color: #767e64;
+    color: #f3ecdb;
+}
+
+#operacao{
+    border: none;
+    border-radius: 50%;
+    background-color: #ff6f3d;
+    color: #f3ecdb;
+}
