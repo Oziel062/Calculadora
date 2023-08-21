@@ -1,29 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     font-family: 'Anton', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     background-color: #7f886a;
 }
 h1{
-    color: #f3ecdb;
+    color: #f5f0e4;
+    position: absolute;
+    left: 22%;
+    top: 20%;
 }
 
 .calculadora{
-    border-radius: .8rem;
-    background-color: #3e503c;
+    top: 30%;
+    left: 20%;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #3e503cd7;
+    padding: 15px;
+}
+
+.calculadora p{
+    text-align: center;
+}
+
+#resultado{
+    padding-right: 3px;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 25px;
+    background-color: white;
+    width: 94%;
+    height: 35px;
+    margin: 3px;
 }
 
 #botao{
+    font-size: 20px;
+    margin: 3px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
     border: none;
-    border-radius: 50%;
+    border-radius: 15%;
     background-color: #767e64;
     color: #f3ecdb;
 }
 
-#operacao{
+#botaoZero{
+    font-size: 20px;
+    margin: 3px;
+    height: 2rem;
+    width: 80px;
+    cursor: pointer;
     border: none;
-    border-radius: 50%;
+    border-radius: 15%;
+    background-color: #767e64;
+    color: #f3ecdb;
+}
+
+#botaoIgual{
+    font-size: 30px;
+    margin: 3px;
+    width: 2rem;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15%;
     background-color: #ff6f3d;
     color: #f3ecdb;
 }
+#operacao{
+    font-size: 20px;
+    margin: 3px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 15%;
+    background-color: #ff6f3d;
+    color: #f3ecdb;
+}
+
+#botao:hover{
+    background-color: #60755e;
+}
+#botaoIgual:hover{
+    background-color: #d85d34;
+}
+
+#botaoZero:hover{
+    background-color: #60755e;
+}
+
+#operacao:hover{
+    background-color: #d85d34;
+}
+/* ////////////////////////////////////////////////////// */
