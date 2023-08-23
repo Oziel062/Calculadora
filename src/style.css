@@ -5,18 +5,22 @@
     padding: 0px;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #7f886a;
 }
 h1{
     color: #f5f0e4;
     position: absolute;
-    left: 22%;
+    font-size: 60px;
     top: 20%;
 }
 
 .calculadora{
+    height: 50%;
+    width: 300px;
     top: 30%;
-    left: 20%;
     position: absolute;
     border-radius: 15px;
     background-color: #3e503cd7;
@@ -28,21 +32,28 @@ h1{
 }
 
 #resultado{
-    padding-right: 3px;
+    margin-top: 20px;
     border-radius: 3px;
     text-align: right;
-    font-size: 25px;
+    font-size: 45px;
     background-color: white;
     width: 94%;
-    height: 35px;
-    margin: 3px;
+    height: 65px;
+    margin-left: 8px;
+}
+
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #botao{
-    font-size: 20px;
     margin: 3px;
-    width: 2rem;
-    height: 2rem;
+    font-size: 40px;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
     border: none;
     border-radius: 15%;
@@ -51,10 +62,9 @@ h1{
 }
 
 #botaoZero{
-    font-size: 20px;
-    margin: 3px;
-    height: 2rem;
-    width: 80px;
+    font-size: 40px;
+    height: 4rem;
+    width: 135px;
     cursor: pointer;
     border: none;
     border-radius: 15%;
@@ -63,10 +73,9 @@ h1{
 }
 
 #botaoIgual{
-    font-size: 30px;
-    margin: 3px;
-    width: 2rem;
-    height: 80px;
+    font-size: 40px;
+    width: 4rem;
+    height: 135px;
     cursor: pointer;
     border: none;
     border-radius: 15%;
@@ -74,10 +83,9 @@ h1{
     color: #f3ecdb;
 }
 #operacao{
-    font-size: 20px;
-    margin: 3px;
-    width: 2rem;
-    height: 2rem;
+    font-size: 40px;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
     border: none;
     border-radius: 15%;
@@ -98,5 +106,30 @@ h1{
 
 #operacao:hover{
     background-color: #d85d34;
+}
+
+@media (max-width:768px){
+    .botoes{
+        margin: 10px;
+    }
+    #operacao{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #botao{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #botaoIgual{
+        width: 3rem;
+        height: 106px;
+    }
+
+    #botaoZero{
+        width: 106px;
+        height: 3rem;
+    }
 }
 /* ////////////////////////////////////////////////////// */
