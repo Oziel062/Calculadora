@@ -37,7 +37,7 @@ h1{
     font-size: 45px;
     background-color: white;
     width: 85.5%;
-    height: 65px;
+    height: 100%;
 }
 
 .botoes{
@@ -116,6 +116,7 @@ h1{
     color: white;
 }
 
+    
 
 @media (max-width:768px){
     .calculadora{
@@ -139,6 +140,48 @@ h1{
 
     #botaoIgual{
         width: 4rem;
+        height: 134px;
+    }
+
+    #botaoZero{
+        width: 134px;
+        height: 4rem;
+    }
+
+    .creditos{
+        position: absolute;
+        bottom: 0%;
+        color: white;
+    }
+}
+
+@media (resolution: 1.5dppx){
+    .calculadora{
+        top: 14%;
+        width: auto;
+        height: auto;
+    }
+    h1{
+        top: 0%;
+    }
+
+    #resultado{
+        height:60px;
+        width: 94%;
+    }
+
+    #operacao{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #botao{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    #botaoIgual{
+        width: 3.5rem;
         height: 134px;
     }
 
